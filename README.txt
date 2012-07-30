@@ -1,1 +1,0 @@
-hiero_demo README

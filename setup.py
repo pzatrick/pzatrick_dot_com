@@ -15,9 +15,9 @@ requires = [
     'deform_bootstrap'
 ]
 
-setup(name='hiero_demo',
+setup(name='pzatrick_dot_com',
       version='0.0',
-      description='hiero_demo',
+      description='pzatrick_dot_com',
       long_description=README + '\n\n' +  CHANGES,
       classifiers=[
         "Programming Language :: Python",
@@ -34,12 +34,12 @@ setup(name='hiero_demo',
       zip_safe=False,
       install_requires=requires,
       tests_require=requires,
-      test_suite="hiero_demo",
+      test_suite="pzatrick_dot_com",
       entry_points = """\
       [paste.app_factory]
-      main = hiero_demo:main
+      main = pzatrick_dot_com:main
       [console_scripts]
-      init_hiero_demo_db = hiero_demo.scripts.initializedb:main
+      init_db = pzatrick_dot_com.scripts.initializedb:main
       """,
       )
 

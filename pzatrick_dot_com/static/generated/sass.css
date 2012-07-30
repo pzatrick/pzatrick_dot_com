@@ -34,9 +34,9 @@
 }
 /* line 25, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
 [class*="tile-span"] .tile-fg {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
 }
 
 /* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
