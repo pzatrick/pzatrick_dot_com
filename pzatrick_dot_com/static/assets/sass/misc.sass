@@ -1,0 +1,38 @@
+.entry-metadata 
+  text-align: right
+  font-style: italic
+  border-top: solid #aaa 1px
+
+.header-row 
+  color: white
+  background-color: #222
+
+.tile-container 
+  margin: 0 auto
+  width: 1200px
+  height: auto
+
+.tile-row 
+  height: 100px
+  width: inherit
+
+[class*="tile-span"] 
+  float: left
+  height: inherit
+  padding: 0
+  margin: 0
+  border: 0
+  .tile-fg
+    position: absolute
+    bottom: 0
+    left: 0
+
+$tile-width-desktop: 100px
+@for $i from 1 through 12
+  .tile-span#{$i}
+    width: $tile-width-desktop*$i
+
+div.light-gray
+  background-color: #CCC
+div.gray
+  background-color: #999

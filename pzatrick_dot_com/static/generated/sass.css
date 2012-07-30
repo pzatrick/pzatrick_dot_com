@@ -1,0 +1,110 @@
+/* line 1, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.entry-metadata {
+  text-align: right;
+  font-style: italic;
+  border-top: solid #aaaaaa 1px;
+}
+
+/* line 6, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.header-row {
+  color: white;
+  background-color: #222222;
+}
+
+/* line 10, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-container {
+  margin: 0 auto;
+  width: 1200px;
+  height: auto;
+}
+
+/* line 15, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-row {
+  height: 100px;
+  width: inherit;
+}
+
+/* line 19, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+[class*="tile-span"] {
+  float: left;
+  height: inherit;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* line 25, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+[class*="tile-span"] .tile-fg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span1 {
+  width: 100px;
+}
+
+/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span2 {
+  width: 200px;
+}
+
+/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span3 {
+  width: 300px;
+}
+
+/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span4 {
+  width: 400px;
+}
+
+/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span5 {
+  width: 500px;
+}
+
+/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span6 {
+  width: 600px;
+}
+
+/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span7 {
+  width: 700px;
+}
+
+/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span8 {
+  width: 800px;
+}
+
+/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span9 {
+  width: 900px;
+}
+
+/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span10 {
+  width: 1000px;
+}
+
+/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span11 {
+  width: 1100px;
+}
+
+/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span12 {
+  width: 1200px;
+}
+
+/* line 35, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+div.light-gray {
+  background-color: #cccccc;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+div.gray {
+  background-color: #999999;
+}
