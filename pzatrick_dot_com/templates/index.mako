@@ -22,7 +22,7 @@
             <div class="tile-span1 tile-grass3tru"></div>
         % elif c == '`' and rc == ' ' and tc == ' ':
             <div class="tile-span1 tile-grass3tr"></div>
-        % elif c == '`' and lc == '`' and bc == '`' and brc == ' ':
+        % elif c == '`' and lc == '`' and bc == '`' and blc == ' ':
             <div class="tile-span1 tile-grass3blu"></div>
         % elif c == '`' and lc == ' ' and bc == ' ':
             <div class="tile-span1 tile-grass3bl"></div>
