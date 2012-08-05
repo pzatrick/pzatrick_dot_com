@@ -1,110 +1,329 @@
 /* line 1, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+body {
+  background-color: white;
+}
+
+/* line 4, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
 .entry-metadata {
   text-align: right;
   font-style: italic;
   border-top: solid #aaaaaa 1px;
 }
 
-/* line 6, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+/* line 9, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
 .header-row {
   color: white;
   background-color: #222222;
 }
 
-/* line 10, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+/* line 15, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
 .tile-container {
   margin: 0 auto;
-  width: 1200px;
+  width: 984px;
   height: auto;
 }
 
-/* line 15, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+/* line 20, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
 .tile-row {
-  height: 100px;
+  height: 24px;
   width: inherit;
 }
 
-/* line 19, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+/* line 24, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
 [class*="tile-span"] {
   float: left;
   height: inherit;
   padding: 0;
   margin: 0;
   border: 0;
-}
-/* line 25, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
-[class*="tile-span"] .tile-fg {
-  position: relative;
-  bottom: 0px;
-  left: 0px;
-}
-
-/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
-.tile-span1 {
-  width: 100px;
-}
-
-/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
-.tile-span2 {
-  width: 200px;
-}
-
-/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
-.tile-span3 {
-  width: 300px;
-}
-
-/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
-.tile-span4 {
-  width: 400px;
-}
-
-/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
-.tile-span5 {
-  width: 500px;
-}
-
-/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
-.tile-span6 {
-  width: 600px;
-}
-
-/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
-.tile-span7 {
-  width: 700px;
-}
-
-/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
-.tile-span8 {
-  width: 800px;
-}
-
-/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
-.tile-span9 {
-  width: 900px;
-}
-
-/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
-.tile-span10 {
-  width: 1000px;
-}
-
-/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
-.tile-span11 {
-  width: 1100px;
-}
-
-/* line 32, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
-.tile-span12 {
-  width: 1200px;
-}
-
-/* line 35, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
-div.light-gray {
-  background-color: #cccccc;
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 33px;
+  text-align: center;
+  background-size: 24px 24px;
 }
 
 /* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
-div.gray {
-  background-color: #999999;
+.tile-span1 {
+  width: 24px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span2 {
+  width: 48px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span3 {
+  width: 72px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span4 {
+  width: 96px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span5 {
+  width: 120px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span6 {
+  width: 144px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span7 {
+  width: 168px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span8 {
+  width: 192px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span9 {
+  width: 216px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span10 {
+  width: 240px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span11 {
+  width: 264px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span12 {
+  width: 288px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span13 {
+  width: 312px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span14 {
+  width: 336px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span15 {
+  width: 360px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span16 {
+  width: 384px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span17 {
+  width: 408px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span18 {
+  width: 432px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span19 {
+  width: 456px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span20 {
+  width: 480px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span21 {
+  width: 504px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span22 {
+  width: 528px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span23 {
+  width: 552px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span24 {
+  width: 576px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span25 {
+  width: 600px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span26 {
+  width: 624px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span27 {
+  width: 648px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span28 {
+  width: 672px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span29 {
+  width: 696px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span30 {
+  width: 720px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span31 {
+  width: 744px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span32 {
+  width: 768px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span33 {
+  width: 792px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span34 {
+  width: 816px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span35 {
+  width: 840px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span36 {
+  width: 864px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span37 {
+  width: 888px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span38 {
+  width: 912px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span39 {
+  width: 936px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span40 {
+  width: 960px;
+}
+
+/* line 37, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-span41 {
+  width: 984px;
+}
+
+/* line 40, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-stone {
+  background-image: url("/static/img/stone-tile.png");
+}
+
+/* line 42, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-stone2 {
+  background-image: url("/static/img/stone-tile2.png");
+}
+
+/* line 44, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-grass {
+  background-image: url("/static/img/grass-tile.png");
+}
+
+/* line 46, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-grass2 {
+  background-image: url("/static/img/grass-tile2.png");
+}
+
+/* line 48, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-grass3l {
+  background-image: url("/static/img/grass-tile3l.png");
+}
+
+/* line 50, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-grass3t {
+  background-image: url("/static/img/grass-tile3t.png");
+}
+
+/* line 52, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-grass3tl {
+  background-image: url("/static/img/grass-tile3tl.png");
+}
+
+/* line 54, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-grass3tlu {
+  background-image: url("/static/img/grass-tile3tlu.png");
+}
+
+/* line 56, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-grass3r {
+  background-image: url("/static/img/grass-tile3r.png");
+}
+
+/* line 58, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-grass3b {
+  background-image: url("/static/img/grass-tile3b.png");
+}
+
+/* line 60, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-grass3br {
+  background-image: url("/static/img/grass-tile3br.png");
+}
+
+/* line 62, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-grass3bru {
+  background-image: url("/static/img/grass-tile3bru.png");
+}
+
+/* line 64, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-grass3tr {
+  background-image: url("/static/img/grass-tile3tr.png");
+}
+
+/* line 66, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-grass3tru {
+  background-image: url("/static/img/grass-tile3tru.png");
+}
+
+/* line 68, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-grass3bl {
+  background-image: url("/static/img/grass-tile3bl.png");
+}
+
+/* line 70, ../../home/patrick/codez/hiero_env/pzatrick_dot_com/pzatrick_dot_com/static/assets/sass/misc.sass */
+.tile-grass3blu {
+  background-image: url("/static/img/grass-tile3blu.png");
 }

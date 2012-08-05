@@ -1,3 +1,6 @@
+body
+  background-color: white
+
 .entry-metadata 
   text-align: right
   font-style: italic
@@ -7,13 +10,15 @@
   color: white
   background-color: #222
 
+$tile-width-desktop: 24px
+$tile-count-width: 41
 .tile-container 
   margin: 0 auto
-  width: 1200px
+  width: $tile-width-desktop*$tile-count-width
   height: auto
 
 .tile-row 
-  height: 100px
+  height: $tile-width-desktop
   width: inherit
 
 [class*="tile-span"] 
@@ -22,17 +27,46 @@
   padding: 0
   margin: 0
   border: 0
-  .tile-fg
-    position: relative
-    bottom: 0px
-    left: 0px
+  font-size: 27px
+  font-weight: bold
+  line-height: 33px
+  text-align: center
+  background-size: 24px 24px
 
-$tile-width-desktop: 100px
-@for $i from 1 through 12
+@for $i from 1 through $tile-count-width
   .tile-span#{$i}
     width: $tile-width-desktop*$i
 
-div.light-gray
-  background-color: #CCC
-div.gray
-  background-color: #999
+.tile-stone
+  background-image: url("/static/img/stone-tile.png")
+.tile-stone2
+  background-image: url("/static/img/stone-tile2.png")
+.tile-grass
+  background-image: url("/static/img/grass-tile.png")
+.tile-grass2
+  background-image: url("/static/img/grass-tile2.png")
+.tile-grass3l
+  background-image: url("/static/img/grass-tile3l.png")
+.tile-grass3t
+  background-image: url("/static/img/grass-tile3t.png")
+.tile-grass3tl
+  background-image: url("/static/img/grass-tile3tl.png")
+.tile-grass3tlu
+  background-image: url("/static/img/grass-tile3tlu.png")
+.tile-grass3r
+  background-image: url("/static/img/grass-tile3r.png")
+.tile-grass3b
+  background-image: url("/static/img/grass-tile3b.png")
+.tile-grass3br
+  background-image: url("/static/img/grass-tile3br.png")
+.tile-grass3bru
+  background-image: url("/static/img/grass-tile3bru.png")
+.tile-grass3tr
+  background-image: url("/static/img/grass-tile3tr.png")
+.tile-grass3tru
+  background-image: url("/static/img/grass-tile3tru.png")
+.tile-grass3bl
+  background-image: url("/static/img/grass-tile3bl.png")
+.tile-grass3blu
+  background-image: url("/static/img/grass-tile3blu.png")
+.tile-empty
